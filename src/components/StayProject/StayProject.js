@@ -5,14 +5,7 @@ const StayProject = () => {
     <section className="stayproject pt-5">
       <div className="container">
         <div className="row d-flex align-items-center">
-          <div className="col-md-6">
-            <img
-              src={stayprojectillus}
-              alt="stayproject"
-              className="stayproject"
-            />
-          </div>
-          <div className="col-md-6">
+          <div className="col-md-6 order-md-2">
             <h3>Stay and Project</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -21,6 +14,13 @@ const StayProject = () => {
               eaque reprehenderit deleniti!
             </p>
             <button className="btn btn-primary btn-radius">Contact US</button>
+          </div>
+          <div className="col-md-6 ">
+            <img
+              src={stayprojectillus}
+              alt="stayproject"
+              className="stayproject"
+            />
           </div>
         </div>
       </div>

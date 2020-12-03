@@ -7,14 +7,16 @@ const EmailForm = () => {
         <p className="text-center pb-2">
           Be the first of our latest offers and updated
         </p>
-        <div className="d-flex justify-content-center">
+        <div className="form">
           <input
             type="text"
-            className="form-control  email-input"
+            className="form-control mb-3  email-input"
             placeholder="Enter your email address"
-            style={{ width: "30%" }}
           />
-          <button className="btn btn-primary btn-radius ml-2" type="submit">
+          <button
+            className="btn btn-primary btn-radius ml-2 mb-2"
+            type="submit"
+          >
             Get Started
           </button>
         </div>

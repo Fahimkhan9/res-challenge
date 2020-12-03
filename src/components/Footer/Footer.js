@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <section className="footer pt-5">
       <div className="container">
-        <div className="row">
+        <div className="row d-flex justify-content-center">
           <div className="col-md-3">
             <img src={logo} alt="logo" className="pb-3 logo" />
             <div className="d-flex ">
