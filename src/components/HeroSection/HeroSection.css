@@ -1,0 +1,7 @@
+.heroillus {
+  width: 100%;
+}
+.herosection {
+  background-image: url("../../images/herobg-illus.png");
+  background-position: right 10px top 10px;
+}
